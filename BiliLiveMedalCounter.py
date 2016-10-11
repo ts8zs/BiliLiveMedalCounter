@@ -1,5 +1,5 @@
-#http://live.bilibili.com/liveact/ajaxGetMedalRankList?roomid=
-
+#Author: live.ts8zs.com
+####GPL####
 import random
 import requests
 import time
@@ -38,7 +38,7 @@ def CheckRoom(roomid):
 def main():
     ##创建线程池
     threads = []
-    threadsNum=20
+    threadsNum=10
     for i in range(0,threadsNum):
         threads.append(threading.Thread())
 
